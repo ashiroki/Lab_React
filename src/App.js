@@ -2,6 +2,8 @@ import React from 'react';
 import CharacterCard from './CharacterCard';
 import './App.css';
 import _ from 'lodash';
+import world from './dio.jpg';
+import di from './wq.jpg';
  
 let message = 'ZAWARUDO'
  
@@ -59,7 +61,7 @@ class App extends React.Component {
         }
         <div>Attemp {this.state.attempt}</div>
         {
-          this.state.completed && <h4>Muda! Muda!..../h4>
+          this.state.completed && <h4>Complete</h4>
         }
       </div>
     )
