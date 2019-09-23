@@ -37,8 +37,9 @@ class App extends React.Component {
  
   render() {
     return (
+      
       <div>
-        <img src={world}></img>
+        <img src={world}width="460" height="345"></img><br></br>
         {
           Array.from(this.state.chars).map((item, index) => (
             <CharacterCard
@@ -62,10 +63,10 @@ class App extends React.Component {
         }
         <div>Attemp {this.state.attempt}</div>
         {
-          this.state.completed && <h4>Muda! Muda!</h4>
+          this.state.completed && <h4>Muda! Muda! Muda! Muda! Muda! Muda! Muda!</h4>
         }
         {
-          this.state.completed && <img src={di}></img>
+          this.state.completed && <img src={di}width="460" height="345"></img>
         }
       </div>
     )
